@@ -7,6 +7,6 @@ public class App {
         ApplicationContext applicationContext  = new ClassPathXmlApplicationContext("spring.xml");
 
         Tyre t  = (Tyre) applicationContext.getBean("tyre");
-        System.out.println(t);
+        System.out.println(t); // output : Tyre{brand='MRF'}
     }
 }
